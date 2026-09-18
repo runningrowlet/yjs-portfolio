@@ -9,7 +9,6 @@ export const categories: Category[] = [
   { id: 'work', label: '직무 경험' },
   { id: 'campus', label: '교내 활동', note: 'SELECTIVE' },
   { id: 'external', label: '교외 활동', note: 'SELECTIVE' },
-  { id: 'etc', label: '기타 활동' },
 ]
 
 export const projects: Project[] = [
@@ -190,19 +189,5 @@ export const projects: Project[] = [
         ],
       },
     ],
-  },
-  {
-    id: 'seoul-single-parent-analysis',
-    category: 'external',
-    org: '데이터청년캠퍼스',
-    title: '서울시 한부모 지원 시스템 취약 권역 분석',
-    tasks: [],
-  },
-  {
-    id: 'etc-activities',
-    category: 'etc',
-    org: '',
-    title: '개인 프로젝트, 공모전, 동아리 등',
-    tasks: [],
   },
 ]

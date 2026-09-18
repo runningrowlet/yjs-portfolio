@@ -13,9 +13,6 @@ const sections = buildIndex()
     <div class="mt-12 grid gap-10 lg:grid-cols-[minmax(0,230px)_minmax(0,1fr)] lg:gap-16">
       <div class="lg:sticky lg:top-12 lg:self-start">
         <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl">목차</h2>
-        <p class="mt-3 text-sm text-muted">
-          항목을 선택하면 Problem · Solution · Result를 볼 수 있습니다.
-        </p>
       </div>
 
       <div class="space-y-12">

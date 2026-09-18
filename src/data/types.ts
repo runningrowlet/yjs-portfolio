@@ -1,4 +1,4 @@
-export type CategoryId = 'work' | 'campus' | 'external' | 'etc'
+export type CategoryId = 'work' | 'campus' | 'external'
 
 export interface Category {
   id: CategoryId
